@@ -615,6 +615,7 @@ input {
 
 .minivideos {
   display: flex;
+  margin-bottom: 8px;
 }
 
 .minifoto {
@@ -628,4 +629,24 @@ input {
 .imgmini {
   height: 94px;
   width: 168px;
+}
+
+.descripmini {
+  display: flex;
+  flex-direction: column;
+}
+.titulomini {
+  margin-bottom: 4px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.6rem;
+  cursor: pointer;
+}
+
+.descripmini p {
+  color: #606060;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
 }
